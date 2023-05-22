@@ -1,0 +1,51 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback');
+
+// Awesome Icons
+@import 'admin-lte/plugins/fontawesome-free/css/all.min.css';
+
+// flag-icon-css
+@import 'admin-lte/plugins/flag-icon-css/css/flag-icons.min.css';
+
+// pace-progress
+@import 'admin-lte/plugins/pace-progress/themes/black/pace-theme-minimal.css';
+
+// overlayScrollbars
+@import 'admin-lte/plugins/overlayScrollbars/css/OverlayScrollbars.min.css';
+
+// Theme style
+@import 'admin-lte/dist/css/adminlte.min.css';
+
+.content-wrapper {
+    background-color: #fff;
+}
+
+.navbar-nav>.user-menu>.dropdown-menu>.user-footer {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.btn-default {
+    background-color: #fff;
+    border-color: #ddd;
+    color: #444;
+}
+
+.navbar-nav>.user-menu>.dropdown-menu>.user-footer .btn-default:hover {
+    background-color: #fff;
+}
+
+.card-footer {
+    padding: 0.75rem 1.25rem;
+    background-color: #fff;
+    border-top: #6c757d;
+}
+
+.content-wrapper.iframe-mode .tab-loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+    background-color: #fff;
+}

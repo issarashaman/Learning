@@ -1,0 +1,19 @@
+// GRADIENT MIXIN 
+@mixin gradient-bg-mix {
+    background: linear-gradient(to right, rgba($bs-mix-blue, 1), rgba($bs-mix-indigo, 1), rgba($bs-mix-purple, 1), rgba($bs-mix-pink, 1), rgba($bs-mix-orange, 1));
+}
+
+@mixin gradient-text-mix {
+    background-image: linear-gradient(to right, rgba($bs-mix-blue, 1), rgba($bs-mix-indigo, 1), rgba($bs-mix-purple, 1), rgba($bs-mix-pink, 1), rgba($bs-mix-orange, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-mix {
+    @include gradient-bg-mix
+}
+
+.text-mix {
+    @include gradient-text-mix
+}

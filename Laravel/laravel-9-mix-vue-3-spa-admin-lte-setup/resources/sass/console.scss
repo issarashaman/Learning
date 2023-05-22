@@ -1,0 +1,36 @@
+// Fonts
+// <!-- Google Font: Source Sans Pro -->
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback');
+// <!-- Ionicons -->
+@import url('https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+// <!-- Font Awesome -->
+@import "~admin-lte/plugins/fontawesome-free/css/all.min.css";
+// <!-- flag-icon-css -->
+@import "~admin-lte/plugins/flag-icon-css/css/flag-icons.min.css";
+
+// <!-- pace-progress -->
+@import "~admin-lte/plugins/pace-progress/themes/blue/pace-theme-minimal.css";
+
+// admin-lte 
+// Here I put only datable and select2 css similarly you can put all other css file just check admin styles what he used for plugins
+
+@import "~admin-lte/dist/css/adminlte.min.css";
+
+.content-wrapper {
+    background-color: #fff;
+}
+
+.navbar-nav>.user-menu>.dropdown-menu>.user-footer {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.btn-default {
+    background-color: #fff;
+    border-color: #ddd;
+    color: #444;
+}
+
+.navbar-nav>.user-menu>.dropdown-menu>.user-footer .btn-default:hover {
+    background-color: #fff;
+}

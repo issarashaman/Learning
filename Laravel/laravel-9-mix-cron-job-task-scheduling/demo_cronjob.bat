@@ -1,0 +1,1 @@
+cd C:\Users\Desktop\Documents\Github\Learning\Laravel\laravel-9-cron-job-task-scheduling && php artisan schedule:run

@@ -1,0 +1,42 @@
+{
+    "th":{
+        "message":{
+            "hello":"<strong>กวาคาโมเล่ศักดิ์สิทธิ์!</strong> คุณควรเช็คอินในช่องด้านล่างบางส่วน"
+        },
+        "link":{
+            "login":"เข้าสู่ระบบ",
+            "register":"สมัครสมาชิก",
+            "console":"คอนโซล",
+            "profile":"โปรไฟล์",
+            "settings":"ตั้งค่า",
+            "signout":"ออกจากระบบ",
+            "home":"หน้าหลัก",
+            "news":"ข่าวสาร",
+            "products":{
+                "products":"สินค้า",
+                "domains":"โดเมน",
+                "hosting":"โฮสติ้ง",
+                "websites":"เว็บไซต์",
+                "marketing":"การตลาด",
+                "security":"ความปลอดภัย",
+                "workspace":"Workspace",
+                "allproducts":"ดูสินค้าทั้งหมด"
+            },
+            "services":{
+                "services":"บริการ",
+                "domains":"โดเมน",
+                "hosting":"โฮสติ้ง",
+                "allservices":"ดูบริการทั้งหมด"
+            },
+            "faq":"คำถามที่พบบ่อย",
+            "documentation":"คู่มือ",
+            "more":{
+                "more":"อื่นๆ",
+                "community":"คอมมิวนิตี้",
+                "blog":"บล็อค",
+                "about":"เกี่ยวกับ CODE Developers",
+                "privacy-policy":"นโยบายความเป็นส่วนตัว"
+            }
+        }
+    }
+}

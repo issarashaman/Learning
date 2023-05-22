@@ -1,0 +1,46 @@
+import * as bootstrap from 'admin-lte/plugins/bootstrap/js/bootstrap.bundle.min.js';
+window.bootstrap = bootstrap;
+
+import * as jquery from 'admin-lte/plugins/jquery/jquery.min.js';
+window.$ = window.jQuery = jquery;
+
+import * as adminlte from 'admin-lte/dist/js/adminlte.js';
+window.adminlte = adminlte;
+
+import 'admin-lte/plugins/pace-progress/pace.min.js';
+import 'admin-lte/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js';
+
+import _ from 'lodash';
+window._ = _;
+
+/**
+ * We'll load the axios HTTP library which allows us to easily issue requests
+ * to our Laravel back-end. This library automatically handles sending the
+ * CSRF token as a header based on the value of the "XSRF" token cookie.
+ */
+
+import axios from 'axios';
+window.axios = axios;
+
+window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+
+/**
+ * Echo exposes an expressive API for subscribing to channels and listening
+ * for events that are broadcast by Laravel. Echo and event broadcasting
+ * allows your team to easily build robust real-time web applications.
+ */
+
+import Echo from 'laravel-echo';
+
+import Pusher from 'pusher-js';
+window.Pusher = Pusher;
+
+window.Echo = new Echo({
+    broadcaster: 'pusher',
+    key: import.meta.env.VITE_PUSHER_APP_KEY,
+    wsHost: import.meta.env.VITE_PUSHER_HOST ?? `ws-${import.meta.env.VITE_PUSHER_CLUSTER}.pusher.com`,
+    wsPort: import.meta.env.VITE_PUSHER_PORT ?? 80,
+    wssPort: import.meta.env.VITE_PUSHER_PORT ?? 443,
+    forceTLS: (import.meta.env.VITE_PUSHER_SCHEME ?? 'https') === 'https',
+    enabledTransports: ['ws', 'wss'],
+});

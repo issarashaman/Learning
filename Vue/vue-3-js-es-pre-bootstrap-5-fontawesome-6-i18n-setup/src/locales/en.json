@@ -1,0 +1,42 @@
+{
+    "en":{
+        "message":{
+            "hello":"<strong>Holy guacamole!</strong> You should check in on some of those fields below."
+        },
+        "link":{
+            "login":"Login",
+            "register":"Register",
+            "console":"Console",
+            "profile":"Profile",
+            "settings":"Settings",
+            "signout":"Sign out",
+            "home":"Home",
+            "news":"News",
+            "products":{
+                "products":"Products",
+                "domains":"Domains",
+                "hosting":"Hosting",
+                "websites":"Websites",
+                "marketing":"Marketing",
+                "security":"Security",
+                "workspace":"Workspace",
+                "allproducts":"View All Products"
+            },
+            "services":{
+                "services":"Services",
+                "domains":"Domains",
+                "hosting":"Hosting",
+                "allservices":"View All Products"
+            },
+            "faq":"FAQ",
+            "documentation":"Documentation",
+            "more":{
+                "more":"More",
+                "community":"Community",
+                "blog":"Blog",
+                "about":"About CODE Developers",
+                "privacy-policy":"Privacy Policy"
+            }
+        }
+    }
+}

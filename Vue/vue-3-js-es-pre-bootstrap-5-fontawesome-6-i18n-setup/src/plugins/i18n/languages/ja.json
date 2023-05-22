@@ -1,0 +1,13 @@
+{
+    "ja":{
+        "languages":{
+            "language":"Language",
+            "en":"English",
+            "th":"Thai",
+            "ja":"Japaness"
+        },
+        "messages":{
+            "hello":"<strong>聖なるワカモレ！</strong> 以下のフィールドのいくつかにチェックインする必要があります。"
+        }
+    }
+}

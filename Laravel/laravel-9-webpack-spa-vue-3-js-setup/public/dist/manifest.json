@@ -1,0 +1,7 @@
+{
+  "app.js": "auto/js/app.bundle.js",
+  "bootstrap.js": "auto/js/bootstrap.bundle.js",
+  "vendors.js": "auto/js/vendors.bundle.js",
+  "app.styles.css": "auto/css/app.styles.css",
+  "logo.png": "auto/26bd867dd65e26dbc77d.png"
+}
